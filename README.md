@@ -1,34 +1,41 @@
-# Mutual Fund Analytics — Day 1
+# Mutual Fund Analytics
 
-## Setup
-```bash
-python -m venv .venv
-# Windows PowerShell:
-.\.venv\Scripts\Activate.ps1
-# macOS/Linux:
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-```
+## Project Overview
 
-## Data placement
-Copy the 10 provided CSV datasets into `data/raw/`. Keep the original filenames. The inspection script searches recursively under this folder. For automated scheme-code validation, the filenames should contain `fund_master` and `nav_history`.
+Mutual Fund Analytics is a Python-based data analytics project focused on collecting, validating, and analyzing mutual fund data. The project aims to examine Net Asset Value (NAV) trends, fund performance, assets under management, and investment patterns to derive meaningful insights.
 
-## Run
-```bash
-python live_nav_fetch.py
-python data_ingestion.py
-```
+## Objectives
 
-`live_nav_fetch.py` saves the original API JSON responses and one CSV per scheme under `data/raw/`, plus `live_nav_history.csv`.
-`data_ingestion.py` prints shape, dtypes, head, and basic anomalies for each CSV and writes inspection/data-quality reports under `reports/`.
+- Collect and inspect mutual fund datasets using Python.
+- Fetch live NAV data through the MFAPI.
+- Validate data quality and identify missing or inconsistent records.
+- Analyze mutual fund performance and investment trends.
+- Develop visualizations and dashboards to communicate insights.
 
-## AMFI scheme codes
-Treat scheme codes as identifiers, not as numbers for arithmetic. Keep them as strings to avoid accidental formatting changes. A scheme code is an assigned identifier; do not assume its digits encode fund house, category, or risk grade.
+## Technology Stack
 
-## Day 1 deliverables
-- `data_ingestion.py`
-- `live_nav_fetch.py`
-- `requirements.txt`
-- `reports/dataset_inspection.csv` and `.json` (generated after running)
-- `reports/data_quality_summary.json` and `reports/missing_scheme_codes.csv` (generated when master/history files are found)
+- **Language:** Python
+- **Data Analysis:** Pandas, NumPy
+- **Visualization:** Matplotlib, Seaborn, Plotly
+- **API Integration:** Requests
+- **Database Connectivity:** SQLAlchemy
+- **Statistical Analysis:** SciPy
+- **Development Environment:** Jupyter Notebook
+- **Version Control:** Git and GitHub
+
+## Project Structure
+
+```text
+mutual_fund_analytics_day1/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+├── sql/
+├── dashboard/
+├── reports/
+├── data_ingestion.py
+├── live_nav_fetch.py
+├── requirements.txt
+├── .gitignore
+└── README.md
