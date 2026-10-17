@@ -1,0 +1,138 @@
+[
+  {
+    "file": "data\\raw\\1788499980509-304c1255-08_investor_transactions.csv",
+    "rows": 32778,
+    "columns": 13,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\1788499982117-e3d6ab98-09_portfolio_holdings.csv",
+    "rows": 322,
+    "columns": 8,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\1788499982615-f9647ab2-10_benchmark_indices.csv",
+    "rows": 8050,
+    "columns": 3,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\1788499983024-b042c300-01_fund_master.csv",
+    "rows": 40,
+    "columns": 15,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\1788499983331-4389156d-02_nav_history.csv",
+    "rows": 46000,
+    "columns": 3,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\1788499984134-b0cbf625-03_aum_by_fund_house.csv",
+    "rows": 90,
+    "columns": 5,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\1788499984405-d702a6c6-04_monthly_sip_inflows.csv",
+    "rows": 48,
+    "columns": 6,
+    "missing_cells": 12,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\1788499984721-4b860901-05_category_inflows.csv",
+    "rows": 144,
+    "columns": 3,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\1788499985036-da4a0c4a-06_industry_folio_count.csv",
+    "rows": 21,
+    "columns": 6,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\1788499985420-bb134abf-07_scheme_performance.csv",
+    "rows": 40,
+    "columns": 19,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\live_nav_history.csv",
+    "rows": 20372,
+    "columns": 9,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\nav_118632_Nippon_Large_Cap.csv",
+    "rows": 3394,
+    "columns": 9,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\nav_119092_Axis_Bluechip.csv",
+    "rows": 3660,
+    "columns": 9,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\nav_119551_SBI_Bluechip.csv",
+    "rows": 3331,
+    "columns": 9,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\nav_120503_ICICI_Bluechip.csv",
+    "rows": 3403,
+    "columns": 9,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\nav_120841_Kotak_Bluechip.csv",
+    "rows": 3397,
+    "columns": 9,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  },
+  {
+    "file": "data\\raw\\nav_125497_HDFC_Top_100_Direct.csv",
+    "rows": 3187,
+    "columns": 9,
+    "missing_cells": 0,
+    "duplicate_rows": 0,
+    "duplicate_column_names": false
+  }
+]

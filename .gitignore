@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.DS_Store
+# Keep supplied/raw datasets out of Git if they are large or redistribution is restricted.
+# Uncomment the next line if your internship policy says not to commit raw data:
+# data/raw/*.csv

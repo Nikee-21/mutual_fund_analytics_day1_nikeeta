@@ -1,0 +1,14 @@
+# Day 1 — Mutual Fund Analytics
+# Install: pip install -r requirements.txt
+
+pandas>=2.0.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+sqlalchemy>=2.0.0
+requests>=2.31.0
+scipy>=1.10.0
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.0.0

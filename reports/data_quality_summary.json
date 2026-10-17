@@ -1,0 +1,13 @@
+{
+  "fund_master_file": "1788499983024-b042c300-01_fund_master.csv",
+  "nav_history_file": "1788499983331-4389156d-02_nav_history.csv",
+  "fund_master_rows": 40,
+  "nav_history_rows": 46000,
+  "fund_master_unique_non_null_codes": 40,
+  "nav_history_unique_non_null_codes": 40,
+  "matched_codes": 40,
+  "codes_missing_from_nav_history": [],
+  "validation_passed": true,
+  "fund_master_code_column": "amfi_code",
+  "nav_history_code_column": "amfi_code"
+}
