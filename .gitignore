@@ -6,5 +6,10 @@ __pycache__/
 .env
 .DS_Store
 # Keep supplied/raw datasets out of Git if they are large or redistribution is restricted.
-# Uncomment the next line if your internship policy says not to commit raw data:
-# data/raw/*.csv
+# Ignore raw and processed data files
+data/raw/*
+data/processed/*
+
+# Keep folder structure in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
